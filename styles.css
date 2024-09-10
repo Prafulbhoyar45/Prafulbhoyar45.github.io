@@ -1,0 +1,112 @@
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+}
+
+section {
+    padding: 60px 20px;
+    text-align: center;
+}
+
+h2 {
+    margin-bottom: 20px;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+/* Hero Section */
+#hero {
+    background-color: #f4f4f4;
+    padding: 100px 20px;
+}
+
+#hero .content {
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+#hero h1 {
+    margin: 0;
+    font-size: 3em;
+}
+
+#hero p {
+    font-size: 1.2em;
+    margin: 20px 0;
+}
+
+#hero .btn {
+    background-color: #333;
+    color: #fff;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+/* Projects Section */
+.project {
+    margin: 20px 0;
+}
+
+.project a {
+    color: #333;
+    text-decoration: none;
+}
+
+/* Skills Section */
+#skills ul {
+    display: flex;
+    justify-content: center;
+}
+
+#skills li {
+    margin: 0 15px;
+    font-size: 1.2em;
+}
+
+/* Contact Section */
+#contact form {
+    max-width: 400px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+}
+
+#contact input, #contact textarea {
+    padding: 10px;
+    margin: 10px 0;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+#contact button {
+    background-color: #333;
+    color: #fff;
+    padding: 10px;
+    border: none;
+    cursor: pointer;
+}
+
+#contact .social-links {
+    margin-top: 20px;
+}
+
+#contact .social-links a {
+    margin: 0 10px;
+    color: #333;
+    text-decoration: none;
+}
+
+/* Footer */
+footer {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
